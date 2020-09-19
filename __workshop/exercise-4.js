@@ -9,8 +9,10 @@ function exercise4() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 0; number < 12; number++) {
-    console.log(square);
+for (let number = 0; number < 13; number++) {
+  let exponent = 2;
+  let square = Math.pow(number, exponent);
+  console.log(square);
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
