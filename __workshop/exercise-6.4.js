@@ -6,7 +6,7 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-    for (let n=36; n>=0; n=n-1){
+    for (let n=36; n>=0; n--){
       if(n%2 === 0){
         console.log(n);
       }
