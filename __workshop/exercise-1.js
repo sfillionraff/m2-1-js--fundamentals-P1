@@ -49,9 +49,9 @@ function question4() {
   // Which of the following are valid objects?
 
   console.log("4.1. ( )"); /* {}                                       */
-  console.log("4.2. (x)"); /* { 'hello' }                              */
+  console.log("4.2. ( )"); /* { 'hello' }                              */
   console.log("4.3. (x)"); /* { name: 'I am fruit' }                   */
-  console.log("4.4. ( )"); /* {'brand-name': 'Dior' }                  */
+  console.log("4.4. (x)"); /* {'brand-name': 'Dior' }                  */
   console.log("4.5. (x)"); /* { brand-name: 'Channel' }                */
   console.log("4.6. (x)"); /* { cool_name: 'bob' + ' Dylan', age: 25 } */
 }
@@ -68,13 +68,13 @@ function question5() {
   console.log("5.2. Number of elements (4)", ["array", "number", "string", "boolean"]);
 
   // 5.3. []
-  console.log("5.3. Number of elements (0)", ["array"]);
+  console.log("5.3. Number of elements (0)", []);
 
   // 5.4. [['romeo', 'juliet'], false]
-  console.log("5.4. Number of elements (2)", ["array of string elements", "boolean"]);
+  console.log("5.4. Number of elements (2)", ["array", "boolean"]);
 
   // 5.5. [{name: 'bob', age: 23}, {name: 'paul', age: 33}]
-  console.log("5.5. Number of elements (2)", ["object, string, number", "array, string, number"]);
+  console.log("5.5. Number of elements (2)", ["object, string, number", "object, string, number"]);
 }
 
 function question6() {
@@ -86,13 +86,13 @@ function question6() {
   console.log("6.1.", "string", "bob");
 
   // 6.2. let age = 45;
-  console.log("6.2.", "number", "45");
+  console.log("6.2.", "number", 45);
 
   // 6.3. let isMarried = false;
-  console.log("6.3.", "boolean", "false");
+  console.log("6.3.", "boolean", false);
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.", "array", "Morty, 3,  Summer, 7");
+  console.log("6.4.", Array [Object{ "name": "Morty", "age": 3}, Object{ "name": "Summer", "age": 7} ]);
 }
 
 // Once you are done type the following in the terminal to test your answer(s).
