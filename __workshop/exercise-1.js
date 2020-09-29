@@ -92,7 +92,7 @@ function question6() {
   console.log("6.3.", "boolean", false);
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.", Array [Object{ "name": "Morty", "age": 3}, Object{ "name": "Summer", "age": 7} ]);
+  console.log("6.4.", Array [Object{ "name": "Morty", "age": 3}, Object{ "name": "Summer", "age": 7}]);
 }
 
 // Once you are done type the following in the terminal to test your answer(s).
